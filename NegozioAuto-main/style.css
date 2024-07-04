@@ -1,0 +1,81 @@
+/* Nascondi le immagini per default, ma mantieni le dimensioni massime */
+img {
+  display: none;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Risultato in stile accattivante */
+#result {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Stile del campo di ricerca */
+#ricerca {
+  background-color: #bdc3c7;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunta ombreggiatura */
+}
+
+/* Stile dei risultati della ricerca */
+#risultatoricerca {
+  display: flex;
+  flex-direction: column;
+  background-color: #bdc3c7;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px; /* Spazio tra i risultati */
+  margin: 10px 0;
+}
+
+/* Stile del corpo della pagina */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ecf0f1;
+}
+
+/* Contenitore centrato e con bordi arrotondati */
+#container {
+  text-align: center;
+  border: 3px solid #2c3e50;
+  border-radius: 10%;
+  max-width: 90%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per i bottoni */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
